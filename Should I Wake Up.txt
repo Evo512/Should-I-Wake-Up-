@@ -1,0 +1,8 @@
+//Build the "Should I Wake Up Project".
+//Use a random number to determine if the result should be true or false
+//If the number is 0-0.4999999 then it should be false
+//If the number is 0.5 or greater then it should be true
+
+let number = Math.random();
+let shouldIWakeUp = number >= 0.5;
+resultText.innerHTML = shouldIWakeUp;
